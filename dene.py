@@ -3,6 +3,7 @@ import serial #Serial kütüphanesi
 # import matplotlib.pyplot as plt 
 # from time import sleep #time kütüphanesi
 
+#portu acmak icin kod satiri.....
 port  = serial.Serial('/dev/tty.usbmodem14201', 9600)
 
 getVal = str (port.readline())#değerleri al
